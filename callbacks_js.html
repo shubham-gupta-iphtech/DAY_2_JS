@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>variables_var</title>
+</head>
+<body>
+    <h4>calculate sum</h4>
+    <p id="demo"> </p>
+ 
+     
+    <script>
+        function disp(value)
+        {
+            document.getElementById("demo").innerHTML = value;
+
+        }  
+        
+        function calculate(a,b,myFunction)
+        {
+            let sum = a+b;
+            myFunction(sum);
+        }
+        calculate(3,4,disp);        
+
+    </script>
+    
+
+
+</body>
+</html>
